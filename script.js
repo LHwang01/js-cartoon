@@ -23,3 +23,34 @@ ctx.stroke();
 
 //Draws the sun
 
+ctx.fillStyle = "red";
+ctx.fillRect(215, 85, 60, 50);
+
+ctx.beginPath();
+ctx.moveTo(245, 60);
+ctx.lineTo(215, 85);
+ctx.lineTo(275, 85);
+ctx.closePath();
+
+ctx.fillStyle = "8B0000";
+ctx.fill();
+
+//Draws the house
+
+ctx.fillStyle = "#964B00";
+ctx.fillRect(235, 105, 22, 30);
+
+//Draws the door
+
+ctx.beginPath();
+ctx.fillStyle = "black";
+ctx.strokeStyle = "black";
+ctx.lineWidth = 1;
+
+ctx.arc(253, 120, 1, 0, 2 * Math.PI, false);
+ctx.fill();
+ctx.stroke();
+ctx.closePath();
+
+//Draws the door knob
+
