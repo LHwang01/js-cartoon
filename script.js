@@ -1,6 +1,6 @@
 const canvas = document.getElementById("myCanvas");
 const ctx = canvas.getContext("2d");
-ctx.fillStyle = "#ADD8E6";
+ctx.fillStyle = "#040404";
 ctx.fillRect(0, 0, canvas.width, canvas.height);
 
 //Creates the sky by filling the background color
@@ -13,15 +13,15 @@ ctx.fillRect(0, 135, canvas.width, 2);
 
 //Draws the ground (dirt and grass)
 
-ctx.fillStyle = "yellow";
-ctx.strokeStyle = "yellow";
+ctx.fillStyle = "white";
+ctx.strokeStyle = "white";
 ctx.lineWidth = 2;
 
 ctx.arc(20, 20, 7, 0, 2 * Math.PI, false);
 ctx.fill();
 ctx.stroke();
 
-//Draws the sun
+//Draws the moon
 
 ctx.fillStyle = "#960018";
 ctx.fillRect(255, 50, 9, 26);
