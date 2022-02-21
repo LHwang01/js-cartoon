@@ -5,5 +5,6 @@ canvas {
 }
 
 a:visited { 
-    text-decoration: none; 
+    background-color:#000;
+    color:#000;
 }
