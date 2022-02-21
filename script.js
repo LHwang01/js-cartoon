@@ -30,7 +30,11 @@ function fillSky() {
     ctx.strokeStyle = "white";
     ctx.lineWidth = 2;
 
-    let starXCoord = 0;
+    ctx.arc(20, 20, 7, 0, 2 * Math.PI, false);
+    ctx.fill();
+    ctx.stroke();
+
+    let starXCoord = 20;
 
     for (let i = 0; i < 10; i++) {
         ctx.beginPath();
