@@ -6,5 +6,9 @@ canvas {
 
 a:visited { 
     background-color:#000;
-    color:#000;
+    color:white;
+}
+
+body {
+    background-color: black;
 }
