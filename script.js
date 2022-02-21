@@ -23,6 +23,38 @@ ctx.stroke();
 
 //Draws the sun
 
+ctx.fillStyle = "#960018";
+ctx.fillRect(255, 50, 9, 26);
+
+//Draws chimney
+
+ctx.fillStyle = "white";
+ctx.fillRect(0, 112, canvas.width, 4);
+
+ctx.fillStyle = "white";
+ctx.fillRect(0, 127, canvas.width, 4);
+
+let xCoord = 3;
+let xCoord1 = 4;
+let xCoord2 = 3;
+let xCoord3 = 5.5;
+
+for (let i = 0; i < 14; i++) {
+    ctx.fillStyle = "white";
+    ctx.fillRect(xCoord += 20, 108, 3, 27);
+
+    ctx.beginPath();
+    ctx.moveTo(xCoord1 += 20, 102);
+    ctx.lineTo(xCoord2 += 20, 109);
+    ctx.lineTo(xCoord3 += 20, 109);
+    ctx.closePath();
+
+    ctx.fillStyle = "8B0000";
+    ctx.fill();
+}
+
+//Draws the fences
+
 ctx.fillStyle = "red";
 ctx.fillRect(215, 85, 60, 50);
 
@@ -53,4 +85,3 @@ ctx.stroke();
 ctx.closePath();
 
 //Draws the door knob
-
