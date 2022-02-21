@@ -81,13 +81,16 @@ function buildFence() {
 
 function buildHouse() {
     //Adds the house, which consists of the base, a roof, a chimney, a door, and a door knob
+
+    //This creates the chimney
     ctx.fillStyle = "#960018";
     ctx.fillRect(255, 50, 9, 26);
 
-
+    //This makes the house base
     ctx.fillStyle = "red";
     ctx.fillRect(215, 85, 60, 50);
 
+    //This draws the roof
     ctx.beginPath();
     ctx.moveTo(245, 60);
     ctx.lineTo(215, 85);
@@ -97,12 +100,11 @@ function buildHouse() {
     ctx.fillStyle = "8B0000";
     ctx.fill();
 
-
+    //This creates the door
     ctx.fillStyle = "#964B00";
     ctx.fillRect(235, 105, 22, 30);
     
-
-    
+    //This adds the door knob
     ctx.beginPath();
     ctx.fillStyle = "black";
     ctx.strokeStyle = "black";
