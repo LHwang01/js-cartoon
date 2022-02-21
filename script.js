@@ -25,7 +25,7 @@ function addGround() {
 }
 
 function fillSky() {
-    //Fills the sky with a moon and stars. The stars are randomly placed!
+    //Fills the sky with a moon and stars. The stars are created using a for loop and are randomly placed!
     ctx.fillStyle = "white";
     ctx.strokeStyle = "white";
     ctx.lineWidth = 2;
