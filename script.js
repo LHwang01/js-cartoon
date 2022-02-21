@@ -136,8 +136,12 @@ function plantTree() {
 }
 
 function writeText() {
-    //Writes the title of the cartoon/drawing
+    //Writes the title of the cartoon/drawing and the caption at the bottom
     ctx.fillStyle = "gray";
     ctx.font = "15px Arial";
     ctx.fillText("A Peaceful Night", 92, 16);
+
+    ctx.fillStyle = "black";
+    ctx.font = "11px Arial";
+    ctx.fillText("Tonight is relaxing and pleasant. All is well in this simple life.", 4, 146);
 }
