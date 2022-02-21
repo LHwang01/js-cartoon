@@ -25,85 +25,25 @@ function addGround() {
 }
 
 function fillSky() {
-    //Fills the sky with a moon and stars
+    //Fills the sky with a moon and stars. The stars are randomly placed!
     ctx.fillStyle = "white";
     ctx.strokeStyle = "white";
     ctx.lineWidth = 2;
-    
-    ctx.arc(20, 20, 7, 0, 2 * Math.PI, false);
-    ctx.fill();
-    ctx.stroke();
 
+    let starXCoord = 0;
 
-    ctx.beginPath();
+    for (let i = 0; i < 10; i++) {
+        ctx.beginPath();
 
-    ctx.arc(40, 40, .5, 0, 2 * Math.PI, false);
-    ctx.fill();
-    ctx.stroke();
+        starXCoord += Math.random() * (45 - 10) + 10;
+        let starYCoord = Math.random() * (90 - 20) + 20;
 
-    ctx.closePath();
+        ctx.arc(starXCoord, starYCoord, .5, 0, 2 * Math.PI, false);
+        ctx.fill();
+        ctx.stroke();
 
-
-    ctx.beginPath();
-
-    ctx.arc(76, 55, .5, 0, 2 * Math.PI, false);
-    ctx.fill();
-    ctx.stroke();
-
-    ctx.closePath();
-
-
-    ctx.beginPath();
-
-    ctx.arc(94, 80, .5, 0, 2 * Math.PI, false);
-    ctx.fill();
-    ctx.stroke();
-
-    ctx.closePath();
-
-    ctx.beginPath();
-
-    ctx.arc(130, 20, .5, 0, 2 * Math.PI, false);
-    ctx.fill();
-    ctx.stroke();
-
-    ctx.closePath();
-
-
-    ctx.beginPath();
-
-    ctx.arc(150, 75, .5, 0, 2 * Math.PI, false);
-    ctx.fill();
-    ctx.stroke();
-
-    ctx.closePath();
-
-
-    ctx.beginPath();
-
-    ctx.arc(170, 30, .5, 0, 2 * Math.PI, false);
-    ctx.fill();
-    ctx.stroke();
-
-    ctx.closePath();
-
-
-    ctx.beginPath();
-
-    ctx.arc(210, 40, .5, 0, 2 * Math.PI, false);
-    ctx.fill();
-    ctx.stroke();
-
-    ctx.closePath();
-
-
-    ctx.beginPath();
-
-    ctx.arc(250, 17, .5, 0, 2 * Math.PI, false);
-    ctx.fill();
-    ctx.stroke();
-
-    ctx.closePath();
+        ctx.closePath();
+    }
 }
 
 function buildFence() {
