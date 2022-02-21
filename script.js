@@ -34,15 +34,8 @@ function fillSky() {
     ctx.fill();
     ctx.stroke();
 
-    ctx.fillStyle = "white";
-    ctx.strokeStyle = "white";
-
 
     ctx.beginPath();
-
-    ctx.fillStyle = "white";
-    ctx.strokeStyle = "white";
-    ctx.lineWidth = 2;
 
     ctx.arc(40, 40, .5, 0, 2 * Math.PI, false);
     ctx.fill();
@@ -50,13 +43,8 @@ function fillSky() {
 
     ctx.closePath();
 
-    /////
 
     ctx.beginPath();
-
-    ctx.fillStyle = "white";
-    ctx.strokeStyle = "white";
-    ctx.lineWidth = 2;
 
     ctx.arc(76, 55, .5, 0, 2 * Math.PI, false);
     ctx.fill();
@@ -64,13 +52,8 @@ function fillSky() {
 
     ctx.closePath();
 
-    /////
 
     ctx.beginPath();
-
-    ctx.fillStyle = "white";
-    ctx.strokeStyle = "white";
-    ctx.lineWidth = 2;
 
     ctx.arc(94, 80, .5, 0, 2 * Math.PI, false);
     ctx.fill();
@@ -78,13 +61,7 @@ function fillSky() {
 
     ctx.closePath();
 
-    /////
-
     ctx.beginPath();
-
-    ctx.fillStyle = "white";
-    ctx.strokeStyle = "white";
-    ctx.lineWidth = 2;
 
     ctx.arc(130, 20, .5, 0, 2 * Math.PI, false);
     ctx.fill();
@@ -92,13 +69,8 @@ function fillSky() {
 
     ctx.closePath();
 
-    /////
 
     ctx.beginPath();
-
-    ctx.fillStyle = "white";
-    ctx.strokeStyle = "white";
-    ctx.lineWidth = 2;
 
     ctx.arc(150, 75, .5, 0, 2 * Math.PI, false);
     ctx.fill();
@@ -106,13 +78,8 @@ function fillSky() {
 
     ctx.closePath();
 
-    /////
 
     ctx.beginPath();
-
-    ctx.fillStyle = "white";
-    ctx.strokeStyle = "white";
-    ctx.lineWidth = 2;
 
     ctx.arc(170, 30, .5, 0, 2 * Math.PI, false);
     ctx.fill();
@@ -120,13 +87,8 @@ function fillSky() {
 
     ctx.closePath();
 
-    /////
 
     ctx.beginPath();
-
-    ctx.fillStyle = "white";
-    ctx.strokeStyle = "white";
-    ctx.lineWidth = 2;
 
     ctx.arc(210, 40, .5, 0, 2 * Math.PI, false);
     ctx.fill();
@@ -134,13 +96,8 @@ function fillSky() {
 
     ctx.closePath();
 
-    /////
 
     ctx.beginPath();
-
-    ctx.fillStyle = "white";
-    ctx.strokeStyle = "white";
-    ctx.lineWidth = 2;
 
     ctx.arc(250, 17, .5, 0, 2 * Math.PI, false);
     ctx.fill();
