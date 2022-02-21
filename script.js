@@ -197,3 +197,26 @@ ctx.stroke();
 ctx.closePath();
 
 //Draws the door knob
+
+ctx.fillStyle = "#964B11";
+ctx.fillRect(45, 80, 13, 55);
+
+//Draws tree
+ctx.beginPath();
+ctx.moveTo(50, 50);
+ctx.quadraticCurveTo(10, 25, 25, 62.5);
+ctx.quadraticCurveTo(6, 80, 45, 70.5);
+ctx.quadraticCurveTo(10, 110, 60, 80.5);
+ctx.quadraticCurveTo(70, 110, 80, 80.5);
+ctx.quadraticCurveTo(110, 75, 90, 60.5);
+ctx.quadraticCurveTo(90, 30, 60, 60.5);
+ctx.quadraticCurveTo(60, 30, 50, 49.5);
+
+ctx.fillStyle = "green";
+ctx.strokeStyle = "green";
+ctx.stroke();
+ctx.fill();
+
+ctx.fillStyle = "gray";
+ctx.font = "15px Arial";
+ctx.fillText("A Peaceful Night", 92, 16);
